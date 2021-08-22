@@ -1,0 +1,70 @@
+
+#LandingPage {
+       background-color: rgb(38, 191, 51);
+}
+
+#text {
+    
+    height: 200px;
+    width: 500px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Sora;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+}
+
+.button {
+    justify-content: center;
+    
+}
+
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#button {
+    padding-top: 1%;
+    margin:0 auto;
+    display:block;
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      
+      #text {
+    
+    height: 200px;
+    width: 300px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Sora;
+    
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    margin-top: -100px;
+    margin-left: -250px;
+}
+      
+}
+
